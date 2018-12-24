@@ -36,6 +36,7 @@ def get_M_g_v(N_k_1, N_k_2, Y_k_1, Y_k_2):
     return M_g_v
 
 
+
 def get_files(input_file_1, input_file_2):
     file_1 = pd.read_csv(input_file_1, header=None, sep="\t")
     file_2 = pd.read_csv(input_file_2, header=None, sep="\t")
@@ -112,3 +113,4 @@ def run(input_file_1, input_file_2):
 
 if __name__ == '__main__':
     run(sys.argv[1], sys.argv[2])
+
